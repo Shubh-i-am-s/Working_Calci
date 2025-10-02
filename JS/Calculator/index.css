@@ -1,0 +1,59 @@
+.cal_body {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 320px;
+  margin: 10px 0px 0px 20px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.input_bar {
+  margin-top: 10px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  width: 75%;
+  height: 38px;
+  align-content: flex-start;
+  font-size: large;
+  font-weight: bold;
+}
+
+#ans{
+   height: 60px;
+    width: 70px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #FF9500;
+
+}
+
+.button{
+    height: 60px;
+    width: 70px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #1C1C1C;
+    font-size: larger;
+    font-weight: bold;
+    color: aliceblue;
+}
+.button:hover{
+    height: 60px;
+    width: 70px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(184, 176, 176);
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
